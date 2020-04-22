@@ -13,6 +13,19 @@
   border-left: 1px solid #d0d0d0;
 
 }
+
+.nav-item{
+  padding-right: 15px;
+  color:#222222;
+  font-size: 16px;
+}
+
+.nav-item a:hover{
+  font-weight: bold;
+  border-bottom: 2.5px solid #ee7b6f;
+  border-radius: 1.5px;
+}
+
 .btn-sign-in{
   width: 102px;
   height: 46px;
@@ -22,11 +35,71 @@
   font-size: 16px;
   color: #222222;
   margin-right: 12px;
+  text-align: center;
 }
 
 .btn-sign-up{
   width: 110px;
   height: 46px;
   border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
   background-image: linear-gradient(113deg, #ffb48a, #ec6b69 100%);
+  border-left: unset;
+}
+
+.btn-sign-up:hover{
+  color: #ffffff;
+}
+
+.intro{
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  color: #222222
+}
+
+.intro-paragraph{
+  font-size: 18px;
+  line-height: 1.76;
+  color: #222222;
+  width: 85%;
+}
+.font-18{
+    font-size: 18px;
+}
+.btn-started{
+ width: 175px;
+ height: 52px;
+ border-radius: 4px;
+ background-image: linear-gradient(107deg, #ffb48a, #ec6b69);
+ color:#ffffff;
+ text-align: center;
+ border-left: unset;
+ font-weight: 600;
+ padding-right: 30px;
+}
+
+.play-btn{
+  padding-left: 30px;
+}
+.orange-text{
+  color: #ff9900;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.video-link a{
+  color: #ff9900;
+}
+
+.bg{
+  /* width: 1440px;
+  height: 409px; */
+  /* transform: rotate(180deg); */
+  background-image: linear-gradient(179deg, rgba(255, 229, 210, 0.63) 4%, rgba(255, 244, 229, 0) 96%);
 }
