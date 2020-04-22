@@ -469,3 +469,19 @@ input:checked + .slider:before
   margin-right: auto;
   padding-top: 15px;
 }
+
+.demo{
+  position: absolute;
+  text-align: center;
+  top:100%;
+}
+.demo-header{
+  font-size: 36px;
+  font-weight: 800;
+  color: #222222;
+}
+.demo-para{
+  font-size: 20px;
+  color: #222222;
+  padding: 0 30px;
+}
