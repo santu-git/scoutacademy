@@ -81,7 +81,7 @@
  text-align: center;
  border-left: unset;
  font-weight: 600;
- 
+
 }
 
 .play-btn{
@@ -95,11 +95,237 @@
 
 .video-link a{
   color: #ff9900;
-}
 
+}
+.w-100{
+  width: 100%
+}
 .bg{
   /* width: 1440px;
   height: 409px; */
   /* transform: rotate(180deg); */
-  background-image: linear-gradient(179deg, rgba(255, 229, 210, 0.63) 4%, rgba(255, 244, 229, 0) 96%);
+  background-image: linear-gradient(0deg, rgba(255, 229, 210, 0.63) 4%, rgba(255, 244, 229, 0) 96%);
+}
+.online-education-section{
+  border-radius: 20%;
+  padding-bottom: 5%;
+}
+
+.scout-wide-card{
+  width: 100%;
+  border-radius: 10px;
+  background-image: linear-gradient(280deg, #ffb48a, #ec6b69);;
+}
+
+.p-md-106{
+  padding: 0 106px;
+  position: absolute;
+  width: 100%;
+}
+
+.heading{
+  font-size: 36px;
+  font-weight: 800;
+  color:#ffffff;
+}
+
+.description{
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.33;
+  font-weight: normal;
+}
+
+.short-desc{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 3.75rem;
+  padding-top: 0.5rem;
+}
+
+.btn-pricing{
+  /* height: 44px; */
+  padding: 12px 30px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ec6c69;
+  background-color: #ffffff;
+}
+
+.center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.pt-15{
+  padding-top: 15rem;
+}
+
+.section-headline{
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2f281e;
+}
+
+.align-center{
+  text-align: center;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 441px;
+  height: 41px;
+  /* border-radius: 0.188rem;
+  border: solid 0.063rem #b3b3b3; */
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  display:none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  -webkit-transition: .4s;
+  transition: .4s;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20.5px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "TEACHERS";
+  height: 100%;
+  width: 55%;
+  text-align: center;
+  right:50%;
+  background-image: linear-gradient(101deg, #efbfd5, #9d61fd 100%);
+  -webkit-transition: .4s;
+  transition: .4s;
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20.5px;
+  padding-top: 10px;
+}
+
+input:checked + .slider {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1); */
+
+}
+
+input:focus + .slider {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(221px);
+  -ms-transform: translateX(221px);
+  transform: translateX(221px);
+}
+
+
+
+.slider:after
+{
+ content:'STUDENTS';
+ color: black;
+ display: block;
+ position: absolute;
+ transform: translate(50%,50%);
+ top: -1;
+ left: 55%;
+ font-size: 16px;
+ text-align: center;
+ font-family: Verdana, sans-serif;
+ color:#222222;
+ border-radius: 20.5px;
+ font-weight: 500;
+}
+
+input:checked + .slider:after
+{
+  content:'STUDENTS';
+  top: 0;
+  left: 10%;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20.5px;
+
+}
+input:checked + .slider:before
+{
+  content:'TEACHERS';
+  color: #ffffff;
+}
+
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20.5px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.slider.round:before {
+  border-radius: 20.5px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.stat-desc{
+
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 1.63;
+ letter-spacing: normal;
+ color: #222222;
+ text-align: left;
+ padding: 40px 35px;
+
+}
+.para{
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #222222;
+}
+
+.features{
+  display: flex;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.features-prop{
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
 }
