@@ -608,3 +608,8 @@ input:checked + .slider:before
   .key-features-background{
     background-image: linear-gradient(179deg, rgba(255, 229, 210, 0.63) 1%, rgba(255, 244, 229, 0) 99%);
   }
+
+.btn-align{
+  display: block;
+  margin: 0 auto;
+}
