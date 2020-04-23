@@ -272,7 +272,7 @@ input:checked+.slider:before {
 input:checked+.slider:after {
   content: 'STUDENTS';
   top: 0;
-  left: 10%;
+  left: 5%;
   font-size: 16px;
   font-weight: 500;
   border-radius: 20.5px;
@@ -593,9 +593,9 @@ input:checked+.slider:before {
   }
 
   input:checked+.slider:before {
-    -webkit-transform: translateX(160px);
-    -ms-transform: translateX(160px);
-    transform: translateX(160px);
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
   }
 }
 
