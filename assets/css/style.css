@@ -16,6 +16,7 @@
   vertical-align: text-top;
   padding-left: 15px;
   border-left: 1px solid #d0d0d0;
+
 }
 
 .nav-item {
@@ -514,7 +515,7 @@ input:checked+.slider:before {
   border: solid 0.5px #c2c2c2;
   position: absolute;
   left: 80%;
-  top: 338px;
+  top: 155%;
 }
 
 .oval4 {
@@ -542,7 +543,7 @@ input:checked+.slider:before {
   display: block;
   width: 50%;
   margin: auto;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .img-brain {
@@ -602,9 +603,23 @@ input:checked+.slider:before {
   .play-btn {
     padding-left: 10px;
   }
-
+  .span4{
+    text-align: center;
+  }
   .span4 .img-left {
     float: unset !important;
+    display: block;
+    margin: 0 auto;
+  }
+  .pl-40{
+    padding-left: unset !important;
+  }
+  .contact-sec{
+    margin: 0 10px;
+  }
+  .feedback-link{
+    padding-left: 10px !important;
+    padding-right:  10px !important;
   }
 }
 
@@ -630,7 +645,10 @@ input:checked+.slider:before {
 }
 
 .p-50 {
-  padding: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
 }
 
 .p-t-5 {
