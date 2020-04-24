@@ -7,7 +7,7 @@
         </linearGradient>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <text fill="#2F281E" font-family="OpenSans" font-size="39.27" transform="translate(0 -5)">
+        <text fill="#2F281E" font-weight="300" font-family="'Open Sans Regular', sans-serif" font-size="39.27" transform="translate(0 -5)">
             <tspan x="48" y="42">Scout</tspan>
         </text>
         <g fill-rule="nonzero">
