@@ -332,8 +332,8 @@ input:checked+.slider:before {
 
 .features-background {
   /* height: 835px; */
-  height: 685px;
-  background-image: linear-gradient(179deg, rgba(255, 229, 210, 0.63) 1%, rgba(255, 244, 229, 0) 99%);
+  height: 720px;
+  background-image: linear-gradient(0deg, rgba(255, 229, 210, 0.63) 99%, rgba(255, 244, 229, 0) 1%);
   padding: 0 50px;
 }
 
@@ -691,4 +691,44 @@ input:checked+.slider:before {
 
 .pl-40 {
   padding-left: 40px;
+}
+
+
+.speech-bubble-ds-arrow {
+    border-left: 21px solid transparent;
+    /* border-top: 20px solid rgba(0, 0, 0, 0.2); */
+    bottom: -25px;
+    position: absolute;
+    right: 15px;
+    /* border-radius: 5px; */
+}
+
+.speech-bubble-ds-arrow::after {
+    border-left: 21px solid transparent;
+    border-top: 21px solid #ffffff;
+    bottom: 17px;
+    content: "";
+    position: absolute;
+    right: 25px;
+    border-radius: 11px;
+}
+
+
+.speech-bubble-ls-arrow {
+    border-left: 21px solid transparent;
+    /* border-top: 20px solid rgba(0, 0, 0, 0.2); */
+    bottom: -25px;
+    position: absolute;
+    left: 15px;
+    /* border-radius: 5px; */
+}
+
+.speech-bubble-ls-arrow::after {
+    border-left: 21px solid transparent;
+    border-top: 21px solid #ffffff;
+    bottom: 17px;
+    content: "";
+    position: absolute;
+    left: 15px;
+    border-radius: 11px;
 }
