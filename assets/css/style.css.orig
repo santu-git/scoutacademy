@@ -410,45 +410,17 @@ input:checked+.slider:before {
 
 .feature-area {
   padding-bottom: 35px;
+  background-image: url('../images/gradient_1.svg');
+  backgroubd-size: cover;
 }
 
 .features-background {
   /* height: 835px; */
   height: 720px;
-  background-image: linear-gradient(179deg, rgba(255, 229, 210, 0.63) 1%, rgba(255, 244, 229, 0) 99%);
+  /*background-image: linear-gradient(179deg, rgba(255, 229, 210, 0.63) 1%, rgba(255, 244, 229, 0) 99%);*/
+
+
   padding: 0 50px;
-}
-
-.footer-background {
-  background-color: #0e1015;
-}
-
-.footer-row {
-  padding-top: 89px;
-  padding-bottom: 10px;
-}
-
-.footer-brand-name {
-  font-weight: normal;
-  font-size: 30px;
-  color: #ff7124;
-  display: inline;
-  vertical-align: top;
-  padding-left: 15px;
-  border-left: 1px solid #d0d0d0;
-}
-
-.footer-link {
-  font-size: 16px;
-  padding-bottom: 10px;
-}
-
-.footer-link a {
-  color: #ffffff;
-}
-
-.footer-quote {
-  font-size: 22px;
 }
 
 .form-control {
@@ -510,13 +482,23 @@ input:checked+.slider:before {
 
 .feature4 {
   width: 70%;
+<<<<<<< HEAD
+    border-radius: 26.5px;
+    box-shadow: 0 2px 8px 0 rgba(86, 117, 146, 0.1);
+    background-color: #ffffff;
+    position: absolute;
+    top: 230px;
+    left: 35%;
+    padding: 10px;
+=======
   border-radius: 26.5px;
   box-shadow: 0 2px 8px 0 rgba(86, 117, 146, 0.1);
   background-color: #ffffff;
   position: absolute;
-  top: 230px;
+  top: 250px;
   left: 35%;
   padding: 10px;
+>>>>>>> dd62318879c4471cc3f0498bb93c95a1c3577633
 }
 
 .feature5 {

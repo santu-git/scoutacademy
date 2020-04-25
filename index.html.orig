@@ -38,9 +38,9 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Product</a>
             </li>
-            <!-- <li class="nav-item active">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Pricing</a>
-            </li> -->
+            </li>
             <li class="nav-item active">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
@@ -78,9 +78,14 @@
                 as a medium to achieve the academic goals.
                 SCOUT will help you to achieve the same yet maintaining the
                 prevailing traditions.
+<<<<<<< HEAD
+              </p>
+=======
+
               </p>
 
               </br>
+>>>>>>> dd62318879c4471cc3f0498bb93c95a1c3577633
               <div class="row video-link pb-5">
                 <button class="btn btn-started navbar-btn ml-3">Get Started</button>
                 <img class="play-btn" src="./assets/images/play.svg" alt="...">
@@ -211,12 +216,18 @@
                   <div class="features-prop">Monitor Student Progress</div>
                 </div>
               </div>
+<<<<<<< HEAD
               </div>
               </br>
 
+=======
+>>>>>>> dd62318879c4471cc3f0498bb93c95a1c3577633
             </div>
+            </br>
+            <h2 class="text-left para">Be the Super Teacher</h2>
           </div>
         </div>
+      </div>
     </section>
     <!-- <end of scout for> -->
     <!-- <start scout for student> -->
