@@ -184,6 +184,10 @@
   color: #ff9900;
 } */
 
+.work-image{
+  align-items: flex-end;
+  .display: flex;
+}
 .w-100 {
   width: 100%
 }
@@ -231,7 +235,7 @@
 .btn-pricing {
   /* height: 44px; */
   padding: 12px 30px;
-  font-family: OpenSans;
+  /* font-family: OpenSans; */
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -954,4 +958,14 @@ input:checked+.slider:before {
     vertical-align: text-top;
     padding-left: 15px;
     border-left: 1px solid #d0d0d0;
+}
+
+.proud-indian  span:nth-child(1){
+    color: #ff9800 !important;
+}
+.proud-indian  span:nth-child(2){
+    color: #FFF !important;
+}
+.proud-indian  span:nth-child(3){
+    color: #4CAF50 !important;
 }
