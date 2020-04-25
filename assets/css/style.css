@@ -253,7 +253,9 @@
 .pt-15 {
   padding-top: 15rem;
 }
-
+.tagline{
+  font-size: 22px;
+}
 .section-headline {
   font-size: 36px;
   font-weight: bold;
@@ -517,7 +519,7 @@ input:checked+.slider:before {
     box-shadow: 0 2px 8px 0 rgba(86, 117, 146, 0.1);
     background-color: #ffffff;
     position: absolute;
-    top: 250px;
+    top: 230px;
     left: 35%;
     padding: 10px;
 }
